@@ -1,0 +1,41 @@
+/* Authentication landing page and responsive polish */
+#main{max-width:1200px;margin:24px auto 0;padding:0 20px}
+#main .framer-WCkGr{min-height:0!important;max-width:100%!important;overflow:hidden;border-radius:18px;background:#fff!important;box-shadow:0 10px 34px rgba(18,35,52,.08)}
+#main .framer-9ry8li{max-width:100%;padding:24px}
+#main .framer-1a25rhd,#main .framer-1a8q7m3,#main .framer-1mdapra{max-width:100%}
+#main .framer-1795wi2,#main .framer-7djs83,#main .framer-7hy79o,#main .framer-8tpi15,#main .framer-9ry8li{min-width:0}
+#main img{max-width:100%;height:auto;object-fit:cover}
+#main .framer-text{max-width:100%;overflow-wrap:anywhere}
+#main button{cursor:pointer}
+#main input{font-family:inherit}
+#main [data-framer-name="Sign In"]{min-height:0!important}
+#main .framer-19c91zh-container{width:100%;max-width:100%}
+#main .framer-WCkGr{display:block}
+#activeSessionBanner{border-radius:10px!important}
+@media(max-width:900px){
+ .template-header-inner{flex-wrap:wrap;gap:10px;padding:12px 16px}
+ .template-brand-link{flex:1}
+ .template-nav{order:3;flex-basis:100%;overflow-x:auto}
+ .template-status-badge{font-size:10px}
+ .template-app-shell{grid-template-columns:1fr}
+ .template-sidebar{position:static}
+ .template-sidebar-menu{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .template-grid-4{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .template-footer-inner{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+ body{font-size:13px}
+ .template-header-inner{padding:10px 12px}
+ .template-brand-link{min-width:0}
+ .template-brand-title-main{font-size:13px}
+ .template-brand-title-sub{font-size:10px}
+ .template-status-badge{padding:6px 8px}
+ .template-app-shell{padding:0 12px;margin:14px auto 24px}
+ .template-panel,.template-white-card{padding:15px}
+ .template-grid-2,.template-grid-4{grid-template-columns:1fr}
+ .template-map-container,.maplibregl-map{min-height:300px}
+ .template-footer-inner{grid-template-columns:1fr}
+ .template-footer-bottom{flex-direction:column}
+ #main{padding:0 12px;margin-top:12px}
+ #main .framer-9ry8li{padding:12px}
+}

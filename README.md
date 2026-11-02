@@ -95,3 +95,11 @@ Pre-authorised fleet operator accounts included for immediate testing:
    SERVERLESS_API_URL: "https://your-site.netlify.app/.netlify/functions/api"
    ```
 4. Enable **GitHub Pages** in your repository settings (`Settings > Pages > Deploy from branch`).
+
+
+## Repair notes (November 2026)
+- Restored the missing `css/ambulance-dashboard.css` and `css/app.css` files referenced by all three HTML pages. Their absence caused the unstyled/jumbled layout.
+- Simplified the driver sign-in form to **Full Name, Email Address, and Password**.
+- Driver sign-in now checks those three fields against a server-authorized operator profile. The full name must match the authorized profile; removing vehicle/fleet fields from the form does not make arbitrary accounts authorized.
+- The CSS is responsive for mobile and desktop. The landing-page Framer layout is constrained to prevent oversized elements from overflowing.
+- This is a student demonstration prototype. Do not use it for real emergency dispatch or operational traffic control.

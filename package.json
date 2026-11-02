@@ -1,0 +1,9 @@
+{
+  "name": "smart-ambulance-alert-system",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Smart Ambulance Alert and Traffic Clearance System — Clear the Way. Save a Life.",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
